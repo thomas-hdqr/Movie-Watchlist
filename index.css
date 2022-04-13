@@ -1,0 +1,60 @@
+
+/* Règles générales */
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 42px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+
+/* Pour le header principal */
+
+header {
+    padding: 100px 100px;
+    background-image: url("/images/THJJRUhNlEc.png");
+    background-size: cover;
+    z-index: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+
+
+/* Pour la barre de recherche */
+
+.search-container input[type=text], button[type=submit]{
+    font-size: 14px;
+    border: solid 1px #D1D5DB;
+    padding: 20px;
+    z-index: 1;
+    margin-top: -30px;
+}
+
+
+.search-container input[type=text] {
+    width: 50%;
+}
+
+
+.search-container button[type=submit]{
+    cursor: pointer;
+}
+
