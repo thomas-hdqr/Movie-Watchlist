@@ -1,4 +1,4 @@
-
+/* /* 
 /* Règles générales */
 
 body {
@@ -56,5 +56,4 @@ header {
 
 .search-container button[type=submit]{
     cursor: pointer;
-}
-
+} 
